@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    margin: 0px;
+    display: block;
+    background-image: url('/images/sunset.jpg');
+    background-size: cover;
+    position: center;
+    background-repeat: repeat;
+
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(88, 233, 88);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: #b48787;
+}
+div{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+/* customarize the label */
+.container{
+    display:block;
+    position: relative;
+    padding-left: 5px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+/* Create a custom checkbox */
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#favourite{
+    text-align: initial;
+}
+#recommend{
+    text-align: initial;
+}
+#improve{
+    text-align: initial;
+}
+
+
+/* for tablets only */
+@media only screen and (min-width: 600px){
+    .col-s-1{width: 8.33%;}
+    .col-s-1{width: 16.66%;}
+    .col-s-1{width: 25%;}
+    .col-s-1{width: 33.33%;}
+    .col-s-1{width: 41.66%;}
+    .col-s-1{width: 50%;}
+    .col-s-1{width: 58.33%;}
+    .col-s-1{width: 66.66%;}
+    .col-s-1{width: 75%;}
+    .col-s-1{width: 83.33%;}
+    .col-s-1{width: 91.66%;}
+    .col-s-1{width: 100%;}
+    }
+    /* for desktop only */
+    @media only screen and (min-width: 768px){
+        .col-s-1{width: 8.33%;}
+        .col-s-1{width: 16.66%;}
+        .col-s-1{width: 25%;}
+        .col-s-1{width: 33.33%;}
+        .col-s-1{width: 41.66%;}
+        .col-s-1{width: 50%;}
+        .col-s-1{width: 58.33%;}
+        .col-s-1{width: 66.66%;}
+        .col-s-1{width: 75%;}
+        .col-s-1{width: 83.33%;}
+        .col-s-1{width: 91.66%;}
+        .col-s-1{width: 100%;}
+        }
